@@ -8,5 +8,5 @@ echo '    git commit -a -m "update"                                             
 echo '    git push                                                                        ' >> .bashrc
 echo '}                                                                                   ' >> .bashrc
 
-chmod +x gc
+chmod +x binder/gc
 export PATH=$PATH:/binder

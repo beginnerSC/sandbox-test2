@@ -1,15 +1,3 @@
-# jupyter serverextension enable --py nbgitpuller --sys-prefix
-# jupyter lab build --minimize=False
-
-
-# wget https://sourceforge.net/projects/ta-lib/files/ta-lib/0.4.0/ta-lib-0.4.0-src.tar.gz
-# tar -xzf ta-lib-0.4.0-src.tar.gz
-# cd ta-lib/
-# ./configure --prefix=/usr
-# make
-# sudo make install    # This will fail; postBuild doesn't have root access
-
-
 echo '\n# git add commit and push in one command \n' >> .bashrc
 
 echo 'function cnp() {                                                                    ' >> .bashrc
@@ -20,3 +8,5 @@ echo '    git commit -a -m "update"                                             
 echo '    git push                                                                        ' >> .bashrc
 echo '}                                                                                   ' >> .bashrc
 
+chmod +x gc
+export PATH=$PATH:/binder

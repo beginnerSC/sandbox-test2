@@ -1,0 +1,9 @@
+channels:
+    - conda-forge
+    - conda-forge/label/prerelease-jupyterlab
+dependencies:
+    - nbgitpuller
+    - pip
+    - pip: 
+        - numpy
+#         - TA-Lib

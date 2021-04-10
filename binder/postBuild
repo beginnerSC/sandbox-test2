@@ -1,3 +1,6 @@
+chmod +x $HOME/binder/gc
+export PATH=$HOME/binder:$PATH
+
 echo '\n# git add commit and push in one command \n' >> .bashrc
 
 echo 'function cnp() {                                                                    ' >> .bashrc
@@ -7,5 +10,3 @@ echo '    git config --global user.email "25188222+beginnerSC@users.noreply.gith
 echo '    git commit -a -m "update"                                                       ' >> .bashrc
 echo '    git push                                                                        ' >> .bashrc
 echo '}                                                                                   ' >> .bashrc
-
-chmod +x gc

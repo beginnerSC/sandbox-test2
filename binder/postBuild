@@ -1,5 +1,6 @@
 chmod +x $HOME/binder/gc
-export PATH=$HOME/binder:$PATH
+
+echo 'export PATH=$HOME/binder:$PATH' >> .bashrc
 
 echo '\n# git add commit and push in one command \n' >> .bashrc
 

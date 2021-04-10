@@ -2,7 +2,7 @@
 
 * sandox-test 不能再改動了，看 sandox-test1 的說明
 
-* 這個 repo 才是真正可以用來 test 的 repo
+* 這個 repo 才是真正可以用來測試環境的 repo
 
 * Click on the below link to launch: 
 

@@ -5,8 +5,6 @@ dependencies:
     - nbgitpuller
     - pip
     - pip: 
-        - nbdime
-        - jupyterlab-git
         - numpy
         - pycrypto
 #         - TA-Lib

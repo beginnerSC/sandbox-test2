@@ -3,6 +3,13 @@ channels:
     - conda-forge/label/prerelease-jupyterlab
 dependencies:
 #    - nbgitpuller
+###################################
+    - xeus-cling=0.12.1
+    - xtensor=0.23.0
+    - xtensor-blas=0.19.0
+    - boost
+    - eigen
+###################################
     - pip
     - pip: 
         - numpy

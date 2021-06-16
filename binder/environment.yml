@@ -8,7 +8,7 @@ dependencies:
     - xtensor=0.23.0
     - xtensor-blas=0.19.0
     - boost
-    - eigen
+    - eigen3
 ###################################
     - pip
     - pip: 
